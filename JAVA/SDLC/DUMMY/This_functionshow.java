@@ -1,4 +1,4 @@
-package com;
+package SecondWeek;
 
 class Test_this{
 

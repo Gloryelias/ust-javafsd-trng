@@ -1,4 +1,4 @@
-package com;
+package SecondWeek;
 class this_Test {
 	int val1;
 	int val2;

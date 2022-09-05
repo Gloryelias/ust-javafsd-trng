@@ -1,4 +1,4 @@
-package com;
+package SecondWeek;
  class Test_method {
 
 	 int val1;
@@ -13,7 +13,7 @@ package com;
 	 
 	 void printVal(Test_method obj)
 	 {
-		 System.out.println("Val1="+obj.val1+    "\n val2="+obj.val2);
+		 System.out.println("Val1="+obj.val1+  "\n val2="+obj.val2);
 		 
 	 }
 	 
