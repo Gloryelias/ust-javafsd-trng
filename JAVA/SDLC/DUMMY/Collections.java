@@ -1,29 +1,14 @@
-package Week_Day2;
+package week2_Day3;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
-public class Collections
-{
+class Collections {
 	public static void main(String args[]) {
-		List lst=new ArrayList();
-		lst.add("abc");
-		lst.add(123);
-		lst.add(true);
-		lst.add(3.4);
-		
-		Iterator itr=lst.iterator();
-		while(itr.hasNext()) {
-			Object obj=itr.next();
-		    if(obj instanceof String)
-			System.out.println(obj.toString().toUpperCase());
-		    else
-		    	
-		     System.out.println(obj);
-		
-		
-	}
-
+		ArrayList<String>animals=new  ArrayList<>();
+		    animals.add("Dog");
+			animals.add("Cat");
+			animals.add("Horse");
+			System.out.println("ArrayList:"+animals);
+			
 	}
 }
