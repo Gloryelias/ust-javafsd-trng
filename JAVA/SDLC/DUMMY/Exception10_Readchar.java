@@ -24,4 +24,4 @@ class Exception10_Readchar {
 	 e.getStackTrace();
 	 }
 }
-
+}
