@@ -5,7 +5,7 @@ class Exception10_Readchar {
 
 	public static void main(String args[])
 	{
-		[] array=new char[100];
+		char[] array=new char[100];
 		
 		try {
 			FileReader file =new FileReader("C:\Users\ustjavafsdb218\\input.txt");
@@ -24,4 +24,4 @@ class Exception10_Readchar {
 	 e.getStackTrace();
 	 }
 }
-}
+
