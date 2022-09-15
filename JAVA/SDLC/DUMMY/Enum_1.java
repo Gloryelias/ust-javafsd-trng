@@ -1,31 +1,12 @@
-package Week3Day2;
+package Week3Day3;
 
-//import jdk.internal.org.jline.terminal.Terminal.Signal;
-enum signal
-{
-	Red(5),white(10),yellow(15);
-	private int x;
-	private signal(int x) {
-		this.x=x;
-	}
-	
-	
-	int getIndex() 
-	{
-		return x;
-	}
-	
+enum Size {
+	SMALL,MEDIUM,LARGE,EXTRALARGE
+
 }
-
-public class Enum_1 {
-	//enum signal{Red,white,yellow}
+class Enum_1 {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-       signal s=signal.Red;
-       System.out.println("value of Red :"+signal.Red.getIndex());
-       System.out.println("Position of Red: "+s.ordinal());
-       System.out.println("Name: "+s.name());
-       //System.out.println(s.valueOf("yellow"));
+		System.out.println(Size.SMALL);
+		System.out.println(Size.MEDIUM);
 	}
-
 }
