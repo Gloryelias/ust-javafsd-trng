@@ -1,4 +1,4 @@
-package WEEK3DAY6;
+package Week4Day1;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,6 +8,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import wwek3day5.Connection1;
@@ -22,7 +23,10 @@ public class TestCase1 {
 		assertEquals(5,Connection1.calculate(2,4));
 		
 	}
-	public void test1() {
+	@Test()
+	@Ignore
+	public void test1() 
+	{
 		assertEquals("abc","ABC");
 	}
 	
