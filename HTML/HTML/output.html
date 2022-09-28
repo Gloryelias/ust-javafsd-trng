@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form onsubmit="return false" oninput="amount.value = (principal.valueAsNumber * rate.valueAsNumber) / 100">
+<fieldset>  
+<legend style="font-weight:bold;">Interest Calculator</legend>
+<label for="principal">Amount to invest: $</label>
+<input type="number" min="0" id="principal" name="principal" value="1000">
+<p><label for="rate">Interest Rate: </label>
+<input type="range" min="0" max="20" id="rate" name="rate" value="0" oninput="thisRate.value = rate.value">
+<output name="thisRate" for="range">0</output><span>%</span></p>
+<p>Interest Received: <strong>$<output name="amount" for="principal rate">0</output></strong></p>
+</fieldset>
+</form>
+
+
+
+
+<img src ="/pix/examples/australia-nz-map.gif"
+width="200" height="142"
+alt="Map of Australia and New Zealand"
+usemap ="#aus-nz">
+
+<map name="aus-nz">
+  <area shape ="poly" coords ="3,47,45,12,105,7,140,60,120,125,12,90"
+  href ="https://en.wikipedia.org/wiki/Australia" target="_blank"
+  alt="Australia">
+  <area shape ="poly" coords ="180,85,200,98,167,142,157,138"
+  href ="https://en.wikipedia.org/wiki/New_Zealand" target="_blank"
+  alt="New Zealand">
+  </map>
+  
+  
+  
+  <select>
+<option value ="sydney">Sydney</option>
+<option value ="melbourne">Melbourne</option>
+<option value ="cromwell" selected>Cromwell</option>
+<option value ="queenstown">Queenstown</option>
+</select>
+  
+  
+  
+  <title>How to Build a Dome House</title>
+  
+</body>
+</html>
