@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function myFunction(){
+    var FirstName=document.getElementById("fname").value;
+    var LastName=document.getElementById("lname").value;
+    var city=document.getElementById("City").value;
+    document.write("<h1>Hi   "+FirstName+"WELCOME! <br>Here is your Details</h2>");
+    document.write("First Name:"+FirstName+"<br>");
+    document.write("Last Name:"+LastName+"<br>");
+    document.write("City:"+city+"<br>");
+    
+    }
+</script>
+</head>
+<body>
+        <form>
+        <table>
+    <tr>
+        <td style="padding-left:400px">FirstName<br><Input type="text" placeholder="please enter first name.." id="fname" name="fname" size="40"></td><br>
+        <br>
+    </tr>
+    <tr>
+    <td style="padding-left:400px">LastName<br><Input type="text" placeholder="please enter last name.." id="lname" name="lname" size="40"></td><br>
+    </tr>
+    <tr>
+    <td style="padding-left:400px">City<br><Input type="text" placeholder="please enter city.." id="City" name="city" size="40"></td>
+    </tr>
+    <tr>
+    <td style="padding-left:400px">
+    <input type="button" onclick="myFunction()" value="submit">
+    </td>
+    </tr>
+    </table>
+        </form>
+</body>
+</html>
+
