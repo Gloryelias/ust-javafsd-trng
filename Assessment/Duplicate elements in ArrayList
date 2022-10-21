@@ -1,0 +1,50 @@
+import java.util.*;
+import java.util.ArrayList;
+import java.lang.*;
+class Main
+{
+public static void main(String args[])
+{
+   int count=0;
+   Scanner sc=new Scanner(System.in);
+   //System.out.print("Enter the size of the Array:");
+   //int n=sc.nextInt();
+   List<Integer> lst= new ArrayList<Integer>();
+   
+   lst.add(10);
+   lst.add(20);
+   lst.add(30);
+   lst.add(10);
+   for(int i=0;i<4;i++)
+   {
+     
+     for(int j=0;j<4;j++)
+      {
+      if(i==j)
+     {
+      count++;
+
+
+
+    }
+      }
+   
+    if(count!=1)
+   {
+
+
+
+    System.out.print(lst.get(i) +" ");
+   }
+
+
+
+  }
+
+
+
+ 
+   
+}
+}
+   
