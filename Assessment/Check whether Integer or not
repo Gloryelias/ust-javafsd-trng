@@ -1,0 +1,14 @@
+class Main
+{    public static void main(String[] args) 
+{        float x = 2.95f;
+
+        if(Math.floor(x) == x)
+        {          
+        System.out.println("an integer");  
+        } else
+        {           
+        System.out.println("not an integer");    
+        }      
+        }
+}
+
