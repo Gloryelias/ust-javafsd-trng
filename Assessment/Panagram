@@ -1,0 +1,35 @@
+import java.util.*;
+import java.util.ArrayList;
+import java.lang.*;
+class Panagram
+{
+public static void main(String args[])
+{
+   
+   Scanner sc=new Scanner(System.in);
+   System.out.print("Enter the String:");
+   String s=sc.nextLine();
+   
+   Set sT = new TreeSet();
+   //int flag = 0;
+    for (int i = 0; i < s.length(); i++)
+        {
+            char c = s.charAt(i);
+        
+            if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+            {
+                sT.add(Character.toLowerCase(c));
+            }
+        }
+        if(sT.size() == 26)
+            System.out.println("its pangram"+sT);
+        else
+            System.out.println("its not a pangram"+sT);
+        
+   
+   
+}
+}
+   
+   
+  
