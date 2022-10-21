@@ -1,0 +1,18 @@
+import java.util.*;
+
+
+
+class Main
+{
+    public static void main(String[] args)
+    {
+       
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the String:");
+        String Str=sc.nextLine();
+        StringBuilder newString = new StringBuilder(Str);
+        newString.setCharAt(4, 'a');
+         System.out.print(newString);
+        
+    }
+}
