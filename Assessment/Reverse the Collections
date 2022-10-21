@@ -1,0 +1,14 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        ArrayList<String> col=new ArrayList<String>();
+        col.add("JAVA");
+        col.add("PHP");
+        col.add("C++");
+        col.add("Linux");
+        col.add("Python");
+        System.out.println("Orginal list"+col+"\n");
+        Collections.reverse(col);
+        System.out.println("Reverse List"+col);
+    }
+}
