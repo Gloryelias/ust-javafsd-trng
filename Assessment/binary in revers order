@@ -1,0 +1,23 @@
+import java.util.*;
+class Main
+{  public static void main(String args[]) 
+{    
+int i=0;   
+Scanner sc=new Scanner(System.in);  
+// int n=sc.nextInt();        
+int[] r =new int[10];      
+int N=sc.nextInt();   
+while(N>0)    
+{        r[i]=N%2;      
+N=N/2;                
+System.out.print(r[i]);       
+i++;   
+//s=r[i-1];   
+}    
+System.out.println();    
+for(int j=i-1;j<=i;j--)  
+{    
+System.out.print(r[j]);   
+}  
+}
+}
