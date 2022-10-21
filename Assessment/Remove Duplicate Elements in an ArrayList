@@ -1,0 +1,32 @@
+
+import java.util.*;
+import java.lang.*;
+
+
+
+public class Main
+{
+    public static void main(String[] args) {
+        int n,m;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter no of elements");
+        n=sc.nextInt();
+        List <Integer> lst= new ArrayList <>();
+        for (int i=0;i<n;i++)
+        {
+            m=sc.nextInt();
+            lst.add(m);
+        }
+        //System.out.println (lst);
+        //System.out.println (lst.get(4));
+        for (int i=0;i<lst.size();i++)
+        {
+            for(int j=i+1;j<lst.size();j++)
+            {
+                if (lst.get(i)==lst.get(j))
+                    lst.remove(lst.get(j));
+            }
+        }
+        System.out.println (lst);
+    }
+}
