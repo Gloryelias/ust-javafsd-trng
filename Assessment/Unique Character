@@ -1,0 +1,39 @@
+import java.util.*;
+import java.lang.*;
+//import java.util.io.*;
+//import java.Array;
+class Main
+{
+public static void main(String args[])
+{
+   //int count=0;
+   Scanner sc=new Scanner(System.in);
+   String str=sc.nextLine();
+   System.out.println("String:"+str);
+    System.out.print("Unique Character:");
+   for(int i=0;i<str.length();i++)
+   {
+       int count=0;
+       for(int j=0;j<str.length();j++)
+       {
+           if(str.charAt(i)==str.charAt(j))
+           {
+            count++;
+           //System.out.println(count);
+           }
+       }
+       //System.out.println(count);
+   
+   
+      if(count==1)
+       {
+          //System.out.println(count);
+         
+       System.out.print(str.charAt(i)+ " ");
+       }
+        //System.out.println("Unique Character:");
+    }
+       
+      
+}
+}
