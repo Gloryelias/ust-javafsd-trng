@@ -1,0 +1,37 @@
+body{margin-top:20px;}
+.candidates-profile-bg {
+  padding: 180px 0px 80px 0px;
+  background-image: url("https://www.bootdey.com/img/Content/bg1.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+
+.candidates-profile-education {
+  padding: 50px 4px 14px;
+}
+
+
+.job-details {
+  padding: 210px 0px 60px 0px;
+  background-image: url("../images/job-details-bg.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+
+.job-detail {
+  border: 1px solid #190ae9;
+  border-radius: 8px;
+}
+
+
+
+.job-detail-time li:first-child {
+  border-top: none;
+}
+.section {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    position: relative;
+}
